@@ -1,5 +1,5 @@
 import prisma from "../config/database";
-import { TransactionType, TransactionStatus } from "../generated/prisma";
+import { TransactionType, TransactionStatus } from "@prisma/client";
 import { WalletService } from "./wallet.service";
 import { WalletDbAccess } from "../db-access/wallet.db";
 import { TransactionDbAccess } from "../db-access/transaction.db";

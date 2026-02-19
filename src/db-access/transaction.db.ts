@@ -1,5 +1,5 @@
 import prisma from "../config/database";
-import { TransactionType, TransactionStatus } from "../generated/prisma";
+import { TransactionType, TransactionStatus } from "@prisma/client";
 
 /**
  * Database access layer for Transaction operations.
